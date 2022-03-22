@@ -1,33 +1,7 @@
 body {
-  background-color: rgb(24, 24, 24);
-}
-
-hr {
-  border-style: none;
-  /* border-top: 7px dotted #333; */
-  border-top: dotted;
-  border-color: #333;
-  border-width: 7px;
-  /* height:  5px; */
-  width: 5%;
+    background-color: black;
 }
 
 h1 {
-    /* color: #66BFBF; */
-  /* color: #66FBFB; */
-  /* color: yellowgreen; */
-  /* color: green; */
-  color: #33CC33;
+    color: wheat;
 }
-
-h3 {
-  /* color: #66BFBF; */
-  /* color: #66FBFB; */
-  /* color: yellowgreen; */
-  /* color: #8bff6e; */
-  /* color: green; */
-  color: #33CC33;
-
-}
-
-

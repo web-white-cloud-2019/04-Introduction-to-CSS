@@ -9,8 +9,8 @@ h1 {
 
 .top-container {
   background-color: #151d3b;
-  height: 200px;
-  width: 200px;
+  /* height: 200px;
+  width: 200px; */
 }
 
 .middle-container {
@@ -23,6 +23,27 @@ h1 {
   background-color: brown;
   height: 200px;
   width: 200px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+p {
+  background-color: red;
+  width: 100px;
+  display: inline-block;
+}
+
+.second-p {
+  /* display: none; */
+  visibility: hidden;
+}
+
+span {
+  background-color: green;
+  width: 100px;
+  display: block;
 }
 
 #icon {

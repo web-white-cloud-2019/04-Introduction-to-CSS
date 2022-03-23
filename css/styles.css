@@ -46,8 +46,62 @@ span {
   display: block;
 }
 
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 200px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 100px;
+  
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 100px;
+  bottom: 200px;
+}
+
+/* .red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+} */
+
 #icon {
-  width: 2px;
+  width: 5px;
+  height: 5px;
   /* width: 100%; */
   /* height: 100%; */
 }

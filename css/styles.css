@@ -3,9 +3,19 @@ body {
   color: wheat;
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 h1 {
   margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .top-container {
@@ -30,21 +40,9 @@ h1 {
   text-decoration: underline;
 }
 
-p {
-  background-color: red;
-  width: 100px;
-  display: inline-block;
-}
-
-.second-p {
-  /* display: none; */
-  visibility: hidden;
-}
 
 span {
   background-color: green;
-  width: 100px;
-  display: block;
 }
 
 .top-cloud {

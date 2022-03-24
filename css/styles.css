@@ -10,9 +10,9 @@ h1 {
 
 .top-container {
   background-color: #151d3b;
-  /* height: 200px;
-  width: 200px; */
-}
+  position: relative;
+  padding-top: 100px;
+  }
 
 .middle-container {
   background-color: green;
@@ -48,16 +48,16 @@ span {
 }
 
 .top-cloud {
-  /* display: block; */
-  /* position: absolute; */
-  position: relative;
-  margin-top: 3%;
-  margin-left: 22%;
+  position: absolute;
+  right: 35%;
+  top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 34%;
+  left: 35%;
+  bottom: 300px;
+
 }
 
 #icon {
@@ -66,3 +66,14 @@ span {
   /* width: 100%; */
   /* height: 100%; */
 }
+
+/* .top-cloud {
+  position: relative;
+  margin-top: 3%;
+  margin-left: 22%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 34%;
+} */

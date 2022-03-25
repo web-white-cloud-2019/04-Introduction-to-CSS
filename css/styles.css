@@ -37,6 +37,32 @@ h3 {
 .bottom-container {
 } */
 
+.skill-row {
+  /* display: inline-block; */ /* makes center (my solution) */
+  width: 50%;
+  margin: 100px auto 100px auto; /* makes center (not my solution) */
+  text-align: left;
+  line-height: 2;
+}
+
+/* my solution to the challenge - Make each skill image have 25% the width of the skill row */
+/* .skill-row > img { 
+  width: 25%;
+} */
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
 .pro {
   text-decoration: underline;
 }
